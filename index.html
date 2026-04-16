@@ -593,7 +593,7 @@
     // Generate diamond packs: 1000💎 = ₦2000 up to 10000💎 = ₦20000
     const diamondPrices = [];
     for (let i = 1000; i <= 10000; i += 1000) {
-        diamondPrices.push({ diamonds: i, price: i * 2 });
+        diamondPrices.push({ diamonds: i, price: i * 3 });
     }
 
     let selectedDiamonds = 1000;
@@ -610,7 +610,7 @@
                 <div class="diamond-icon"><i class="fas fa-gem"></i></div>
                 <div class="diamond-amount">${pack.diamonds.toLocaleString()}💎</div>
                 <div class="naira-price">₦${pack.price.toLocaleString()}</div>
-                <div class="price-note">FCMB Transfer</div>
+                <div class="price-note">Fast and secure</div>
                 <button class="buy-btn">Select Pack</button>
             `;
             const btn = card.querySelector('.buy-btn');

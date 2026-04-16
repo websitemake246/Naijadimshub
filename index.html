@@ -505,7 +505,7 @@
             </div>
         </div>
 
-        <!-- BANK DETAILS Smartcash FOR NOW-->
+        <!-- ...-->
         <div class="bank-details-card">
             <div class="bank-title">
                 <i class="fas fa-university"></i> Payment Details ( Only)
@@ -516,18 +516,18 @@
             </div>
             <div class="bank-detail-row">
                 <span class="bank-label">🔢 Account Number:</span>
-                <span class="bank-value" id="accountNumber">0057697798</span>
+                <span class="bank-value" id="accountNumber">1028346654</span>
                 <i class="fas fa-copy copy-icon" onclick="copyToClipboard('0057697798', 'Account Number')"></i>
             </div>
             <div class="bank-detail-row">
                 <span class="bank-label">👤 Account Name:</span>
-                <span class="bank-value">Lateefat hussaini</span>
+                <span class="bank-value">...</span>
                 <i class="fas fa-copy copy-icon" onclick="copyToClipboard('NAIJA DIMS HUB', 'Account Name')"></i>
             </div>
             <div class="payment-instruction">
                 <i class="fas fa-info-circle"></i> <strong>How to pay:</strong> 
                 <ol style="margin-left: 20px; margin-top: 8px;">
-                    <li>Transfer exact amount to <strong>Smartcash 0057697798</strong> (Naija Dims Hub)</li>
+                    <li>Transfer exact amount to <strong>fcmb 1028346654</strong> (Naija Dims Hub)</li>
                     <li>After payment, take screenshot of transfer confirmation</li>
                     <li>Click "I Have Paid" button below & upload screenshot</li>
                     <li>Wait for success check (2-5 mins) – diamonds delivered to your UID!</li>
@@ -694,7 +694,7 @@
             return;
         }
         if (!uploadedFile) {
-            showToast("📸 Please upload a screenshot of your payment to Smart cash 0057697798");
+            showToast("📸 Please upload a screenshot of your payment to FCMB 1028346654");
             return;
         }
 
@@ -704,8 +704,8 @@
 👤 UID: ${uid}
 💎 Pack: ${selectedDiamonds}💎
 💰 Amount: ₦${selectedPriceNaira.toLocaleString()}
-🏦 Bank: Smartcash
-📄 Account: 00576997798
+🏦 Bank: FCMB 
+📄 Account: 1028346654
 📸 Screenshot: ${uploadedFile.name}
 ━━━━━━━━━━━━━━━━━━━
 ⏳ Status: Payment verification pending. Please send screenshot to @naijadimshub on Telegram for instant diamond delivery.`;
